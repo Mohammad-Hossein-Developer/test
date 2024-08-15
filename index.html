@@ -10,9 +10,9 @@
 </head>
 <body>
 
-    <nav>
+    <nav class="blue z-depth-1">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#!" class="">Home</a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger">
             <i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
@@ -25,11 +25,21 @@
       </nav>
     
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
-      </ul>
+        
+          <li><div class="user-view">
+            <div class="background">
+              <img src="assets/img/photo_2023-12-29_22-04-04.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <a href="#user"><img class="circle" src="/assets/img/photo_2024-05-12_10-10-06.jpg"></a>
+            <a href="#name"><span class="white-text name">M_H.Hashemzadeh</span></a>
+            <a href="#email"><span class="white-text email">mkkmmk896@gmail.com</span></a>
+          </div></li>
+          <li><a href="#!"><i class="material-icons">attachment</i>First Link With Icon</a></li>
+          <li><a href="#!"><i class="material-icons">attachment</i>Second Link</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>
 
     <script src="/assets/materialize/js/materialize.min.js"></script>
     <script src="/assets/js/main.js"></script>
